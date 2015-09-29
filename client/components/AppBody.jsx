@@ -4,8 +4,8 @@ AppBody = React.createClass({
       <div className="ionic-body">
         <div className="bar bar-header bar-light">
           <ReactRouter.Link className="button button-icon icon ion-navicon" to={"/settings"}></ReactRouter.Link>
-          <ReactRouter.Link className="h1 title logo" to={"/"}><img src="logo.png"/></ReactRouter.Link>
           <ReactRouter.Link className="button wagon" to={"/other"}><img src="wagon.png"/></ReactRouter.Link>
+          <ReactRouter.Link className="h1 title logo" to={"/"}><img src="logo.png"/></ReactRouter.Link>
         </div>
 
         <div className="view">

@@ -85,7 +85,7 @@ if (MyData.find().count() === 0) {
   });
   MyData.insert({
     name: "Toy Train",
-    image: "/toys/Train.jpg",
+    image: "/toys/train.jpg",
     details: faker.lorem.sentence()
   });
   MyData.insert({
@@ -96,6 +96,56 @@ if (MyData.find().count() === 0) {
   MyData.insert({
     name: "Toy Wood Puzzle",
     image: "/toys/woodpuzzle.jpg",
+    details: faker.lorem.sentence()
+  });
+  MyData.insert({
+    name: "Etch A Sketch",
+    image: "/toys/etch.jpg",
+    details: faker.lorem.sentence()
+  });
+  MyData.insert({
+    name: "Toy Motocycle",
+    image: "/toys/motorcycle.jpg",
+    details: faker.lorem.sentence()
+  });
+  MyData.insert({
+    name: "Smart Bear",
+    image: "/toys/smartbear.jpg",
+    details: faker.lorem.sentence()
+  });
+  MyData.insert({
+    name: "Toy Train with Lights",
+    image: "/toys/trainlights.jpg",
+    details: faker.lorem.sentence()
+  });
+  MyData.insert({
+    name: "Toy Turtle",
+    image: "/toys/turtle.jpg",
+    details: faker.lorem.sentence()
+  });
+  MyData.insert({
+    name: "Toy Transformer",
+    image: "/toys/transformer.jpg",
+    details: faker.lorem.sentence()
+  });
+  MyData.insert({
+    name: "My Little Pony",
+    image: "/toys/pony.JPG",
+    details: faker.lorem.sentence()
+  });
+  MyData.insert({
+    name: "Toy Elephant",
+    image: "/toys/elephant.jpg",
+    details: faker.lorem.sentence()
+  });
+  MyData.insert({
+    name: "Toy Corn Popper",
+    image: "/toys/corn.jpg",
+    details: faker.lorem.sentence()
+  });
+  MyData.insert({
+    name: "Little Tikes",
+    image: "/toys/little.jpg",
     details: faker.lorem.sentence()
   });
 }
