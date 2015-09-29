@@ -53,7 +53,7 @@ body {
 .bar-light .button.wagon {
   border: none;
   background: transparent;
-  left: 45px;
+  left: 22px;
   top: -2px;
 }
 
@@ -80,15 +80,15 @@ body {
 .btn-yes {
   position: absolute;
   bottom: -20px;
-  left: 150px;
-  width: 300px;
+  left: 120px;
+  width: 200px;
   z-index: 9999;
 }
 
 .btn-no {
   position: absolute;
   bottom: -20px;
-  left: -35px;
-  width: 300px;
+  left: 0px;
+  width: 200px;
   z-index: 9999;
 }
