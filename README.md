@@ -1,3 +1,3 @@
-# Meteor-React-Ionic Tinder Clone
+# Kinder Toy Clone
 
-This is kind of a tinder clone. Just the animations mostly.
+Tinder for toys
