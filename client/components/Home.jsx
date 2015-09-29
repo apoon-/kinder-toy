@@ -16,6 +16,10 @@ Home = React.createClass({
   setAffirmative(_id) {
     MyData.update({_id}, {$set: { affirmative: true}})
   },
+  componentDidUpdate: function() {
+    $('.card').hide();
+    $('.card').first().show();
+  },
   renderCards() {
     return this.data.users
       .filter((user) =>  user.affirmative != true)
