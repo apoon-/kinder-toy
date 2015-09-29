@@ -20,6 +20,10 @@ Home = React.createClass({
     $('.card').hide();
     $('.card').first().show();
   },
+  componentDidMount: function(){
+    $('.card').hide();
+    $('.card').first().show();
+  },
   renderCards() {
     return this.data.users
       .filter((user) =>  user.affirmative != true)
